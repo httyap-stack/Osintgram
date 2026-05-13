@@ -207,3 +207,4 @@ while True:
 
     if args.command:
         break
+pyreadline.Readline().parse_and_bind("tab: complete")
